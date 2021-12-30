@@ -1,0 +1,74 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #5f9ea0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#title {
+    text-align: center;
+    margin: 15px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 700;
+}
+
+#img-div {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffc;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 10px;
+    text-align: left;
+    font-style: italic;
+}
+
+#tribute-info h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.history {
+    margin: 10px;
+}
+
+.history li {
+    margin-bottom: 12px;
+}
+
+.cita {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+#tribute-link {
+    text-transform: uppercase;
+}
+
+.more-info {
+    margin: 15px;
+    font-weight: 500;
+}
